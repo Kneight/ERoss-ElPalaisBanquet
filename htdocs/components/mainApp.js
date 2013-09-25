@@ -4,7 +4,7 @@ mainApp.config(function($routeProvider){
   $routeProvider.
     when("/", {templateUrl:'home.html'}).
     when("/Programs", {templateUrl:'NEBC.html'}).
-    when("/Your_Events", {templateUrl:'Rental.html'}).
-    when("/Gallery", {templateUrl:'Gallery.html'}).
+    when("/Your_Events", {templateUrl:'rental.html'}).
+    when("/Gallery", {templateUrl:'gallery.html'}).
     otherwise({redirectTo:"/"});
 });
